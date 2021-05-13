@@ -40,14 +40,15 @@ git pull
 cd ..
 fi
 
-echo "luci-app-ssr-plus"
-if [ ! -d "./luci-app-ssr-plus" ];then
-git clone https://github.com/ipconfig25/luci-app-ssr-plus.git
-else
-cd luci-app-ssr-plus
-git pull
-cd ..
-fi
+#echo "luci-app-ssr-plus"
+#if [ ! -d "./luci-app-ssr-plus" ];then
+#git clone https://github.com/ipconfig25/luci-app-ssr-plus.git
+#else
+#cd luci-app-ssr-plus
+#git pull
+
+#cd ..
+#fi
 
 #echo "luci-app-openclash"
 #if [ ! -d "./OpenClash" ];then
