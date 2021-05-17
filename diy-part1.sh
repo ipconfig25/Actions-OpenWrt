@@ -40,6 +40,15 @@ git pull
 cd ..
 fi
 
+echo "luci-app-godproxy"
+if [ ! -d "./luci-app-godproxy" ];then
+git clone https://github.com/godros/luci-app-godproxy.git
+else
+cd luci-app-godproxy
+git pull
+cd ..
+fi
+
 #echo "luci-app-ssr-plus"
 #if [ ! -d "./luci-app-ssr-plus" ];then
 #git clone https://github.com/ipconfig25/luci-app-ssr-plus.git
